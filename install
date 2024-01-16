@@ -21,8 +21,8 @@ sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
 lua TIKA.lua
 sudo chmod +x TIKA
-sudo chmod +x ./BK
-./BK
+sudo chmod +x ./TK
+./TK
 }
 if [ "$1" = "install" ]; then
 install
@@ -34,6 +34,6 @@ fi
 sudo chmod +x tg
 lua TIKA.lua
 sudo chmod +x TIKA
-sudo chmod +x ./BK
-./BK
+sudo chmod +x ./TK
+./TK
 fi
